@@ -26,11 +26,11 @@ docker run -d \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v portainer_data:/data \
     portainer/portainer-ce:lts
-
+d
 # Create Minecraft container
 echo "Creating Minecraft container..."
 docker run -d \
-    --name=minecraft \
+    --name=minecraft-bedrock-server \
     --restart=always \
     -p 25565:25565 \
     -e EULA=TRUE \
