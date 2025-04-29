@@ -1,6 +1,8 @@
 # Easy Minecraft Bedrock Server
 A sample Minecraft Bedrock edition server with Portainer GUI to manage it.
 
+![Minecraft Bedrock Server](https://raw.githubusercontent.com/Tillman32/minecraft-bedrock-server/refs/heads/main/header.png)
+
 ## Getting started
 ```shell
 wget -O https://github.com/Tillman32/minecraft-bedrock-server/raw/refs/heads/main/boostrap.sh && \
