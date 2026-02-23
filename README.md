@@ -5,7 +5,7 @@ A sample Minecraft Bedrock edition server with Portainer GUI to manage it.
 
 ## Getting started
 ```shell
-wget -O https://github.com/Tillman32/minecraft-bedrock-server/raw/refs/heads/main/boostrap.sh && \
+wget -O bootstrap.sh https://raw.githubusercontent.com/Tillman32/minecraft-bedrock-server/refs/heads/main/bootstrap.sh && \
 chmod +x bootstrap.sh && \
 ./bootstrap.sh
 ```
